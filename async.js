@@ -1,1 +1,1 @@
-async = Npm.require("async");
+async = Npm.require('async');
