@@ -3,6 +3,8 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
+  api.export('async');
+
   api.add_files([
     'async/lib/async.js'
   ], ['client', 'server']);
