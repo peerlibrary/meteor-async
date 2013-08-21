@@ -3,12 +3,16 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.export('async');
+  api.export('async', 'server');
+
+  api.add_files([
+    'async/lib/async.js',
+  ], 'client', {bare: true});
 
   api.add_files([
     'async/lib/async.js',
 	'export-async.js'
-  ], ['client', 'server']);
+  ], 'server');
 });
 
 Package.on_test(function (api) {
