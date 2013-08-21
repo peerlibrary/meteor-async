@@ -7,6 +7,7 @@ Tinytest.addAsync('meteor-async', function (test, onComplete) {
   catch (e) {
   }
   test.isTrue(isDefined, "async is not defined");
+  test.isTrue(Package.async.async, "Package.async.async is not defined");
 
   async.each(['a'], function (item, cb) {
     test.equal(item, 'a', "Iterated item not equal");
