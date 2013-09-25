@@ -7,7 +7,7 @@ Package.on_use(function (api) {
 
   api.add_files([
     'async/lib/async.js',
-	'export-async.js'
+    'export-async.js'
   ], ['client', 'server']);
 });
 
