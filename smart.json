@@ -1,6 +1,6 @@
 {
   "name": "async",
-  "description": "Meteor smart package for async node.js package",
+  "description": "Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript",
   "homepage": "https://github.com/peerlibrary/meteor-async",
   "author": "The PeerLibrary Project",
   "version": "0.2.9.3",
