@@ -1,4 +1,4 @@
-Tinytest.addAsync('meteor-async', function (test, onComplete) {
+Tinytest.addAsync('async', function (test, onComplete) {
   var isDefined = false;
   try {
     async;
