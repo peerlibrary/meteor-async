@@ -1,8 +1,12 @@
 Package.describe({
-  summary: "Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript"
+  summary: "Async provides straight-forward, powerful functions for working with asynchronous JavaScript",
+  version: '0.9.0-1',
+  name: 'peerlibrary:async',
+  git: 'https://github.com/peerlibrary/meteor-async.git'
 });
 
 Package.on_use(function (api) {
+  api.versionsFrom("METEOR@0.9.1");
   api.export('async');
 
   api.add_files([
@@ -12,6 +16,6 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use(['async', 'tinytest', 'test-helpers'], ['client', 'server']);
+  api.use(["peerlibrary:async", 'tinytest', 'test-helpers'], ['client', 'server']);
   api.add_files('tests.js', ['client', 'server']);
 });
