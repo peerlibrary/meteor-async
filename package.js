@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Async provides straight-forward, powerful functions for working with asynchronous JavaScript",
-  version: '0.9.0-1',
+  version: '0.9.0-2',
   name: 'peerlibrary:async',
   git: 'https://github.com/peerlibrary/meteor-async.git'
 });
