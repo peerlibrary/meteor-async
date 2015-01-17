@@ -14,5 +14,5 @@ Installation
 ------------
 
 ```
-mrt add async
+meteor add peerlibrary:async
 ```
