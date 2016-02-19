@@ -1,0 +1,1 @@
+async = module.exports;
